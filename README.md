@@ -273,6 +273,7 @@ Nossa coleção de filmes tem muitos documentos diferentes, alguns com títulos 
 - `title_split` deve conter uma lista de palavras presentes em `title`.
 - A pipeline deve retornar apenas filmes com o título composto apenas de uma palavra.
 - A pipeline deve ser ordenada por `title` em ordem alfabética.
+- A pipeline deve retornar apenas o campo `title_split`.
 
 Por exemplo, `"Cinderela"` e `"3-25"` devem entrar nessa contagem, mas `"Cast Away"` não.
 
